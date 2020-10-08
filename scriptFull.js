@@ -1,24 +1,27 @@
-function initialize()
-{
-  div = document.getElementById('container')
+container = document.getElementById('container');
 
-  let student =
-  {
-    name: "Bjoern",
-    age: 20,
-    major: "computer science"
-  }
-  console.log(student.name);
+let student =
+{
+  name: "Bjoern",
+  age: 20,
+  major: "computer science"
 }
+
+// console.log(student.name);
+
 function changeRed()
 {
-  div.style.color = "red";
+  /* for(var i = 0; i < container.length; i ++)
+  {
+    container[i].style.color = "red";
+  } */
+  container.style.color = "red";
 }
 const changeGreen = function ()
 {
-  div.style.color = "green";
+  container.style.color = "green";
 }
 const changeBlue = () =>
 {
-  div.style.color = "Blue";
+  container.style.color = "Blue";
 }
